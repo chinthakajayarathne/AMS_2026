@@ -28,10 +28,10 @@ This classification underpins the AWaRe enrichment step of Phase 2 of the MD Hea
 |---|---|
 | Total drugs in OPD formulary | 423 |
 | Total antibiotic formulations identified | 83 |
-| 🟢 Access category formulations | 40 |
-| 🟡 Watch category formulations | 33 |
+| 🟢 Access category formulations | 44 |
+| 🟡 Watch category formulations | 26 |
 | 🔴 Reserve category formulations | 0 |
-| ⚪ Not classified in WHO AWaRe 2023 | 10 |
+| ⚪ Not classified in WHO AWaRe 2023 | 13 |
 
 > **Note:** AWaRe categories follow WHO 2023 classification. Topical-only formulations of Watch agents are classified per the active ingredient's systemic AWaRe category. Some agents used only topically or for specific indications (mupirocin, framycetin, furazolidone, clofazimine) are not listed in the WHO AWaRe 2023 EML and are classified as *Not classified*.
 
@@ -61,11 +61,11 @@ This classification underpins the AWaRe enrichment step of Phase 2 of the MD Hea
 
 | Drug Name (as in HHIMS) | Compound | Antibiotic Group | Route | AWaRe | Spectrum | Notes |
 |---|---|---|---|---|---|---|
-| Co-Amoxiclav (Augmentin) 125/31mg/5ml Sy. | Amoxicillin + Clavulanate | Aminopenicillin + BLI | Oral | 🟡 Watch | Broad | BLI combination — reserve for resistant organisms |
-| Co-Amoxiclav (Augmentin) 625mg tab | Amoxicillin + Clavulanate | Aminopenicillin + BLI | Oral | 🟡 Watch | Broad | BLI combination — reserve for resistant organisms |
-| Co-amoxiclav (Augmentin) Tab. 375mg | Amoxicillin + Clavulanate | Aminopenicillin + BLI | Oral | 🟡 Watch | Broad | BLI combination — reserve for resistant organisms |
-| Co-amoxiclav Inj. 1000/200mg | Amoxicillin + Clavulanate | Aminopenicillin + BLI | Parenteral | 🟡 Watch | Broad | IV form for moderate-severe infections |
-| Co-amoxiclav Inj. 500/100mg | Amoxicillin + Clavulanate | Aminopenicillin + BLI | Parenteral | 🟡 Watch | Broad | IV form for moderate-severe infections |
+| Co-Amoxiclav (Augmentin) 125/31mg/5ml Sy. | Amoxicillin + Clavulanate | Aminopenicillin + BLI | Oral | 🟢 Access | Broad | Access per WHO AWaRe 2023 (J01CR02); covers beta-lactamase producers; does not cover ESBLs |
+| Co-Amoxiclav (Augmentin) 625mg tab | Amoxicillin + Clavulanate | Aminopenicillin + BLI | Oral | 🟢 Access | Broad | Access per WHO AWaRe 2023 (J01CR02); covers beta-lactamase producers; does not cover ESBLs |
+| Co-amoxiclav (Augmentin) Tab. 375mg | Amoxicillin + Clavulanate | Aminopenicillin + BLI | Oral | 🟢 Access | Broad | Access per WHO AWaRe 2023 (J01CR02); covers beta-lactamase producers; does not cover ESBLs |
+| Co-amoxiclav Inj. 1000/200mg | Amoxicillin + Clavulanate | Aminopenicillin + BLI | Parenteral | 🟢 Access | Broad | Access per WHO AWaRe 2023 (J01CR02); IV form for moderate-severe infections |
+| Co-amoxiclav Inj. 500/100mg | Amoxicillin + Clavulanate | Aminopenicillin + BLI | Parenteral | 🟢 Access | Broad | Access per WHO AWaRe 2023 (J01CR02); IV form for moderate-severe infections |
 
 ### 3.3 Cephalosporins
 
@@ -91,8 +91,8 @@ This classification underpins the AWaRe enrichment step of Phase 2 of the MD Hea
 | Clarithromycin 250mg | Clarithromycin | Macrolide | Oral | 🟡 Watch | Broad | H. pylori eradication; atypicals |
 | Clarithromycin 500mg Tab | Clarithromycin | Macrolide | Oral | 🟡 Watch | Broad | Higher dose formulation |
 | Clarithromycin syrup 125mg/5ml 60ml | Clarithromycin | Macrolide | Oral | 🟡 Watch | Broad | Paediatric formulation |
-| Erythromycin 250mg Tab | Erythromycin | Macrolide | Oral | 🟢 Access | Narrow-Moderate | Older macrolide; Access category |
-| Erythromycin Syrup 125mg/5ml | Erythromycin | Macrolide | Oral | 🟢 Access | Narrow-Moderate | Paediatric formulation; Access category |
+| Erythromycin 250mg Tab | Erythromycin | Macrolide | Oral | 🟡 Watch | Moderate (Gram-pos, atypicals) | Watch per WHO AWaRe 2023 (J01FA01); listed as therapeutic alternative to clarithromycin on EMLc |
+| Erythromycin Syrup 125mg/5ml | Erythromycin | Macrolide | Oral | 🟡 Watch | Moderate (Gram-pos, atypicals) | Watch per WHO AWaRe 2023 (J01FA01); paediatric formulation |
 
 ### 3.5 Fluoroquinolones
 
@@ -147,7 +147,7 @@ This classification underpins the AWaRe enrichment step of Phase 2 of the MD Hea
 
 | Drug Name (as in HHIMS) | Compound | Antibiotic Group | Route | AWaRe | Spectrum | Notes |
 |---|---|---|---|---|---|---|
-| Clindamycin gel 1% 30g | Clindamycin | Lincosamide | Topical | 🟡 Watch | Narrow (Gram-pos/anaerobes) | Topical acne treatment; Watch category |
+| Clindamycin gel 1% 30g | Clindamycin | Lincosamide | Topical | 🟢 Access | Narrow (Gram-pos/anaerobes) | Access per WHO AWaRe 2023 (J01FF01); topical acne treatment |
 
 ### 3.11 Chloramphenicol
 
@@ -179,9 +179,9 @@ This classification underpins the AWaRe enrichment step of Phase 2 of the MD Hea
 
 | Drug Name (as in HHIMS) | Compound | Antibiotic Group | Route | AWaRe | Spectrum | Notes |
 |---|---|---|---|---|---|---|
-| Nalidixic Acid 500mg Tab | Nalidixic Acid | Quinolone (1st Gen.) | Oral | 🟡 Watch | Narrow (Gram-neg) | Older quinolone; urinary only; resistance concern |
-| Nalidixic Acid Oral suspension 300mg | Nalidixic Acid | Quinolone (1st Gen.) | Oral | 🟡 Watch | Narrow (Gram-neg) | Paediatric suspension |
-| Nalidixic acid 250mg Tab | Nalidixic Acid | Quinolone (1st Gen.) | Oral | 🟡 Watch | Narrow (Gram-neg) | Lower dose formulation |
+| Nalidixic Acid 500mg Tab | Nalidixic Acid | Quinolone (1st Gen.) | Oral | ⚪ Not classified | Narrow (Gram-neg) | Not listed in WHO AWaRe 2023; older quinolone; urinary only; high resistance rates |
+| Nalidixic Acid Oral suspension 300mg | Nalidixic Acid | Quinolone (1st Gen.) | Oral | ⚪ Not classified | Narrow (Gram-neg) | Not listed in WHO AWaRe 2023; paediatric suspension |
+| Nalidixic acid 250mg Tab | Nalidixic Acid | Quinolone (1st Gen.) | Oral | ⚪ Not classified | Narrow (Gram-neg) | Not listed in WHO AWaRe 2023; lower dose formulation |
 
 ### 3.15 Topical Antibacterials (Mupirocin)
 
@@ -220,26 +220,26 @@ This classification underpins the AWaRe enrichment step of Phase 2 of the MD Hea
 | Aminopenicillin | 4 | 4 | — | — | — |
 | Penicillinase-resistant Penicillin | 5 | 5 | — | — | — |
 | Natural Penicillin | 2 | 2 | — | — | — |
-| Aminopenicillin + Beta-lactamase inhibitor | 5 | — | 5 | — | — |
+| Aminopenicillin + Beta-lactamase inhibitor | 5 | 5 | — | — | — |
 | 1st Gen. Cephalosporin | 4 | 4 | — | — | — |
 | 2nd Gen. Cephalosporin | 4 | — | 4 | — | — |
 | 3rd Gen. Cephalosporin | 2 | — | 2 | — | — |
-| Macrolide | 7 | 2 | 5 | — | — |
+| Macrolide | 7 | — | 7 | — | — |
 | Fluoroquinolone | 7 | — | 7 | — | — |
 | Tetracycline | 3 | 3 | — | — | — |
 | Aminoglycoside | 6 | 4 | 2 | — | — |
 | Nitroimidazole | 5 | 5 | — | — | — |
 | Sulfonamide + Trimethoprim | 3 | 3 | — | — | — |
-| Lincosamide | 1 | — | 1 | — | — |
+| Lincosamide | 1 | 1 | — | — | — |
 | Chloramphenicol | 2 | 2 | — | — | — |
 | Fusidic Acid | 4 | — | 4 | — | — |
 | Nitrofuran | 5 | 2 | — | — | 3 |
-| Quinolone (1st Gen.) | 3 | — | 3 | — | — |
+| Quinolone (1st Gen.) | 3 | — | — | — | 3 |
 | Topical Antibacterial (Mupirocin) | 2 | — | — | — | 2 |
 | Rifamycin | 1 | — | 1 | — | — |
 | Aminoglycoside (Framycetin) | 4 | — | — | — | 4 |
 | Riminophenazine (Anti-leprosy) | 1 | — | — | — | 1 |
-| **TOTAL** | **83** | **40** | **33** | **0** | **10** |
+| **TOTAL** | **83** | **44** | **26** | **0** | **13** |
 
 ---
 
@@ -470,10 +470,13 @@ The WHO AWaRe classification (2023) groups antibiotics into three categories to 
 
 ### Key Observations for Lady Ridgeway Hospital OPD
 
-- The formulary contains **predominantly Access-category antibiotics**, which is consistent with appropriate stewardship.
-- **Watch-category agents requiring active monitoring:** Co-amoxiclav, Azithromycin, Clarithromycin, Cefuroxime, Cefixime, Ciprofloxacin, Fusidic acid, Rifampicin, Tobramycin, Nalidixic acid, Clindamycin.
+- The formulary contains a **strong Access-category majority**, which is consistent with appropriate stewardship. Access formulations represent 44 of 83 antibiotic formulations (53%).
+- **Co-amoxiclav is Access** per WHO AWaRe 2023 (J01CR02) — it covers beta-lactamase-producing organisms but does **not** cover ESBL-producing organisms. Use should still be monitored as a second-line agent.
+- **Watch-category agents requiring active monitoring:** Azithromycin, Clarithromycin, Erythromycin, Cefuroxime, Cefixime, Ceftazidime, Ciprofloxacin, Norfloxacin, Ofloxacin, Moxifloxacin, Fusidic acid, Rifampicin, Tobramycin.
 - **No Reserve-category antibiotics** are present in the OPD formulary — a positive finding.
-- Several agents (Mupirocin, Framycetin/Soframycin, Furazolidone, Clofazimine) are **not listed in WHO AWaRe 2023** as they are topical-only or used for specific indications outside the standard classification scope.
+- **Not classified in WHO AWaRe 2023:** Mupirocin, Framycetin/Soframycin, Furazolidone, Nalidixic Acid, and Clofazimine do not appear in the WHO AWaRe 2023 dataset and cannot be assigned an AWaRe category.
+
+> **Classification note:** AWaRe categories in this report are assigned per the official WHO AWaRe 2023 spreadsheet (WHO-MHP-HPS-EML-2023.04-eng.xlsx). Classification is by active compound regardless of route or formulation.
 
 ### Use in Research
 
